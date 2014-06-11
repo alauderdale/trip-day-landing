@@ -1,0 +1,460 @@
+@import "bourbon/bourbon";
+@import "font-awesome";
+@import "../public/bootstrap/css/bootstrap.css";
+
+
+//fonts
+
+@font-face {
+    font-family: 'socialicoregular';
+    src: url('../font/socialico-webfont.eot');
+    src: url('../font/socialico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/socialico-webfont.woff') format('woff'),
+         url('../font/socialico-webfont.ttf') format('truetype'),
+         url('../font/socialico-webfont.svg#socialicoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+// color vars
+
+$primary-color: #40b8e2;
+$secondary-color: #66bd61;
+$medium-gray-color: #f2f2f2;
+$light-gray-color: #fafafa;
+$gray-color:#dddddd;
+$text-color: #42464a;
+$black-color:#2a2929;
+$bg-color:#fff;
+$success-color: #66bd61;
+$link-color:$primary-color;
+
+// font vars
+$paragraph-font-name:"Helvetica Neue", Helvetica, Arial, sans-serif;
+$social-font-name: 'socialicoregular';
+
+// baseline
+$baseline: 24px;
+
+
+
+body{
+  font: 100% $paragraph-font-name;
+  font-size:12pt;
+  color: $text-color;
+  -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+  -webkit-text-size-adjust: 100%;
+  width:100%;
+  line-height: $baseline;
+  background:$bg-color;
+}
+
+
+// type
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { 
+  font-weight: inherit; 
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin:0;
+  margin-bottom:$baseline/2; 
+  color:$text-color;
+}
+
+h1{
+  font-family:$paragraph-font-name;
+  font-weight:bolder;
+}
+h2{
+  font-family:$paragraph-font-name;
+}
+h3{
+  font-family:$paragraph-font-name;
+}
+h4{
+  font-family:$paragraph-font-name;
+}
+h5{
+  font-family:$paragraph-font-name;
+}
+h6{
+  font-family:$paragraph-font-name;
+}
+p{
+  font-family:$paragraph-font-name;
+  color:#666;
+  &.lead{
+  	font-weight:500;
+  }
+}
+
+p  {font-size: 1em; line-height:$baseline;}
+h1 { font-size: 2.5em; line-height:$baseline*2;}
+h2 { font-size: 1.6em; line-height:$baseline*1.5;}
+h3 { font-size: 1.8em; line-height:$baseline*1.4;}
+h4 { font-size: 1.4em; line-height:$baseline;}
+h5 { font-size: 1em; line-height:$baseline;}
+h6 { font-size: 0.9em; line-height:$baseline;}
+
+.social-font-name{
+	font-family:$social-font-name;
+}
+
+.truncate{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow:hidden;
+}
+
+
+.text-uppercase{
+  text-transform:uppercase;
+}
+
+
+// display
+    
+.relative{
+  position:relative;
+}
+
+.hidden{
+    display:none;
+}
+
+.base-line-height{
+    line-height:$baseline;
+}
+
+
+.full-width{
+    width:100%!important;
+}
+
+.display-block{
+    display:block;
+}
+
+.inline-block{
+    display:inline-block;
+}
+
+.inline{
+    display:inline;
+}
+
+ul.inline{
+    list-style:none;
+    margin-left:0;
+    li{
+        display:inline-block;
+        padding:0 5px;
+    }
+}
+
+.bg-cover{
+  background: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}  
+
+//borders
+.border-top{
+  border-top:1px solid $medium-gray-color;
+}
+.border-right{
+  border-right:1px solid $medium-gray-color;
+}
+.border-bottom{
+  border-bottom:1px solid $medium-gray-color;
+}
+.border-left{
+  border-left:1px solid $medium-gray-color;
+}
+
+
+
+
+
+//margin helpers
+.margin-auto {
+  margin: 0 auto;
+}
+.margin {
+  margin: $baseline !important;
+}
+.margin-top {
+  margin-top: $baseline !important;
+}
+.margin-right {
+  margin-right: $baseline !important;
+}
+.margin-bottom {
+  margin-bottom: $baseline !important;
+}
+.margin-left {
+  margin-left: $baseline !important;
+}
+.double-margin-top {
+  margin-top: $baseline*2 !important;
+}
+.double-margin-right {
+  margin-right: $baseline*2 !important;
+}
+.double-margin-bottom {
+  margin-bottom: $baseline*2 !important;
+}
+.double-margin-left {
+  margin-left: $baseline*2 !important;
+}
+.triple-margin-top {
+  margin-top: $baseline*3 !important;
+}
+.triple-margin-right {
+  margin-right: $baseline*3 !important;
+}
+.triple-margin-bottom {
+  margin-bottom: $baseline*3 !important;
+}
+.triple-margin-left {
+  margin-left: $baseline*3 !important;
+}
+.half-margin-top {
+  margin-top: $baseline/2 !important;
+}
+.half-margin-right {
+  margin-right: $baseline/2 !important;
+}
+.half-margin-bottom {
+  margin-bottom: $baseline/2 !important;
+}
+.half-margin-left {
+  margin-left: $baseline/2 !important;
+}
+.quarter-margin-top {
+  margin-top: $baseline/4 !important;
+}
+.quarter-margin-right {
+  margin-right: $baseline/4 !important;
+}
+.quarter-margin-bottom {
+  margin-bottom: $baseline/4 !important;
+}
+.quarter-margin-left {
+  margin-left: $baseline/4 !important;
+}
+.no-margin {
+  margin: 0px !important;
+}
+.no-margin-top {
+  margin-top: 0px !important;
+}
+.no-margin-right {
+  margin-right: 0px !important;
+}
+.no-margin-bottom {
+  margin-bottom: 0px !important;
+}
+.no-margin-left {
+  margin-left: 0px !important;
+}
+.large-margin-top {
+  margin-top: $baseline*3 !important;
+}
+
+//padding helpers
+.padded {
+  padding: $baseline !important;
+}
+.padding-top {
+  padding-top: $baseline !important;
+}
+.padding-right {
+  padding-right: $baseline !important;
+}
+.padding-bottom {
+  padding-bottom: $baseline !important;
+}
+.padding-left {
+  padding-left: $baseline !important;
+}
+.double-padded {
+  padding: $baseline*2 !important;
+}
+.double-padding-top {
+  padding-top: $baseline*2 !important;
+}
+.double-padding-right {
+  padding-right: $baseline*2 !important;
+}
+.double-padding-bottom {
+  padding-bottom: $baseline*2 !important;
+}
+.double-padding-left {
+  padding-left: $baseline*2 !important;
+}
+.triple-padding-top {
+  padding-top: $baseline*3 !important;
+}
+.triple-padding-right {
+  padding-right: $baseline*3 !important;
+}
+.triple-padding-bottom {
+  padding-bottom: $baseline*3 !important;
+}
+.triple-padding-left {
+  padding-left: $baseline*3 !important;
+}
+.no-padding {
+  padding: 0px !important;
+}
+.no-padding-top {
+  padding-top: 0px !important;
+}
+.no-padding-right {
+  padding-right: 0px !important;
+}
+.no-padding-bottom {
+  padding-bottom: 0px !important;
+}
+.no-padding-left {
+  padding-left: 0px !important;
+}
+.half-padding {
+  padding: $baseline/2 !important;
+}
+.half-padding-top {
+  padding-top: $baseline/2 !important;
+}
+.half-padding-right {
+  padding-right: $baseline/2 !important;
+}
+.half-padding-bottom {
+  padding-bottom: $baseline/2 !important;
+}
+.half-padding-left {
+  padding-left: $baseline/2 !important;
+}
+.quarter-padding {
+  padding: $baseline/4 !important;
+}
+.quarter-padding-top {
+  padding-top: $baseline/4 !important;
+}
+.quarter-padding-right {
+  padding-right: $baseline/4 !important;
+}
+.quarter-padding-bottom {
+  padding-bottom: $baseline/4 !important;
+}
+.quarter-padding-left {
+  padding-left: $baseline/4 !important;
+}
+
+//buttons
+
+a.app-download-button{
+	background:url(/images/app_store_button.png)no-repeat;
+	width:221px;
+	height:74px;
+	display:block;
+}
+
+
+//sections
+
+section{
+  padding:$baseline 0;
+  &.invert-section{
+  	h1,h2,h3,h4,h5,h6,p{
+  		color:white;
+  	}
+  }
+  &.home-hero{
+  	background:url(/images/bg1.png)no-repeat center top fixed;
+  	position:relative;
+  	.main-phones{
+  		position:relative;
+  		top:190px;
+  		margin-top:-100px;
+  	}
+  }
+}
+
+//header
+
+header{
+	&.main-header{
+		background:$primary-color;
+		section{
+			padding:$baseline/4 0;
+		}
+	}
+	a.logo{
+		display:block;
+		width:135px;
+		height:36px;
+		background:url(/images/logo.png)no-repeat;
+	}
+}
+
+//main section
+
+.logos{
+	opacity:.5;
+}
+
+
+
+//responsify
+
+//lg
+@media (max-width: 1200px) {
+
+}
+
+//md
+@media (max-width: 992px) {
+
+
+}
+
+//sm
+@media (max-width: 768px) {
+
+
+}
+
+
+//xs
+@media (max-width: 480px) {
+
+
+}
+
+
+
+// Clearing
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+
+//fix zoom on focus on devices
+ @media screen and (-webkit-min-device-pixel-ratio:0) { 
+ select:focus, textarea:focus, input:focus {
+ font-size: 16px;
+ background:#eee;
+  }
+ }
