@@ -388,7 +388,7 @@ section{
   	@extend .invert-text;
   }
   &.home-hero{
-  	background:url(../images/bg1.png)no-repeat center top fixed;
+  	background:url(../images/bg1.png)no-repeat center top;
   	position:relative;
     .hero-info-container{
       padding-top:$baseline*3;
@@ -404,11 +404,11 @@ section{
   	}
   }
   &.flow-feature-section{
-    background:url(../images/bg2.png)no-repeat center top fixed;
+    background:url(../images/bg2.png)no-repeat center top;
     .flow-feature-container{
       margin-bottom:-190px;
       display:inline-block;
-      background-image:url(../images/arrow_right.png),url(/images/arrow_right.png);
+      background-image:url(../images/arrow_right.png),url(../images/arrow_right.png);
       background-repeat:no-repeat,no-repeat;
       background-position-x: 367px,749px;
       background-position-y: 160px,165px;
@@ -504,7 +504,7 @@ footer{
 
   section{
     &.home-hero{
-      background:url(../images/bg1.png)no-repeat center top fixed;
+      background:url(../images/bg1.png)no-repeat center top;
       position:relative;
       .hero-info-container{
         padding-top:$baseline;
@@ -568,6 +568,8 @@ footer{
       padding-bottom:0!important;
     }
     &.flow-feature-section{
+      background:$primary-color;
+      background-image:none;
       padding:$baseline*2 0!important;
       .flow-feature-container{
         background:none;
