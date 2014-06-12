@@ -2,8 +2,7 @@
 	.container
 		.row
 			.col-sm-6	
-				.triple-padding-top
-				.triple-padding-top
+				.hero-info-container
 					%h1
 						Discover Nassau’s Best Family Restaurants
 					%p.lead.margin-bottom
@@ -11,13 +10,93 @@
 					%a.app-download-button{:href=>"#"}
 			.col-sm-6
 				=image_tag'images/phones_main.png',:class=>"img-responsive main-phones"
-%section.no-padding-top
+%section.no-padding-top.double-padding-bottom
 	.container
 		.row
 			.col-sm-6	
+				%p.no-margin-bottom.margin-top.text-muted
+					%small
+						%strong
+							Trusted by:
 				.logos
 					=image_tag'images/logos.png',:class=>"img-responsive"
 			.col-sm-6	
+		.row
+			.col-lg-12
+				.padding-top
+				%hr
+%section.no-padding-top
+	.container
+		.row
+			.col-sm-7
+				%p.display
+					Trip Day is an iPhone app that connects you to special offers for great Restaurants, Hotels, and Activites in the Bahamas.  
+			.col-sm-5
+				.well
+					%h2
+						Why Tripday?
+					%p
+						%strong
+							Visual Planning.  
+						Plan your vacation by rating local photos... a picture is worth a 1000 words 
+					%p
+						%strong
+							Exclusive Offers. 
+						Caribbean business post unique offers only available on Trip Day 
+					%p
+						%strong
+							Personalized For You. 
+						You get  special offers based on your individual needs and wants. 
+%section.no-padding-top.flow-feature
+	.container
+		.row
+			.col-sm-4
+				.text-center
+					=image_tag('phone_1.png')
+					%p
+						Rate pictures of local food and restaurants.
+					=image_tag('arrow_right.png')
+			.col-sm-4
+				.text-center
+					=image_tag('phone_2.png')
+					%p.text-center
+						After every few photos you’ll get special offers from restaurants you’ll love.
+					=image_tag('arrow_right.png')
+			.col-sm-4
+				.text-center
+					=image_tag('phone_3.png')
+					%p.text-center
+						Save your favorite offers for use while offline. 
 %section
-	%hr
+	.container
+		.row
+			-2.times do
+				.col-sm-6
+					.media
+						.pull-left.margin-right
+							=image_tag 'avatar1.png', :class=>"img-responsive img-circle"
+						.media-body.half-margin-top
+							.media-heading
+								%p
+									%em
+										“Trip Day helped my wife I discover Cafe Matisse a hidden gem in Nassau. It was a cute restaurant with good service and great food.” 
+									%br
+								%a{:href=>"#"}
+									\- Will Brandt 
+%section
+	.container
+		.row
+			.col-sm-1
+			.col-sm-6
+				%p.lead
+					%strong
+						Each Month Trip Day helps 10,000 people discover restaurants in the Bahamas.
+				%p
+					%strong
+						Download TripDay on itunes 
+			.col-sm-5
+				%a.app-download-button{:href=>"#"}
+
+
+
 			

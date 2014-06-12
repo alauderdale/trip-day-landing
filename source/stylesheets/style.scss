@@ -87,6 +87,11 @@ p{
   &.lead{
   	font-weight:500;
   }
+  &.display{
+    font-weight:300;
+    font-size:2em;
+    line-height:$baseline*2;
+  }
 }
 
 p  {font-size: 1em; line-height:$baseline;}
@@ -367,7 +372,7 @@ a.app-download-button{
 //sections
 
 section{
-  padding:$baseline 0;
+  padding:$baseline*3 0;
   &.invert-section{
   	h1,h2,h3,h4,h5,h6,p{
   		color:white;
@@ -376,10 +381,13 @@ section{
   &.home-hero{
   	background:url(/images/bg1.png)no-repeat center top fixed;
   	position:relative;
+    .hero-info-container{
+      padding-top:$baseline*3;
+    }
   	.main-phones{
   		position:relative;
-  		top:190px;
-  		margin-top:-100px;
+      top: 223px;
+      margin-top: -180px;
   	}
   }
 }
@@ -405,6 +413,36 @@ header{
 
 .logos{
 	opacity:.5;
+  margin-top:-$baseline*1.7;
+}
+
+
+footer{
+  background:$primary-color;
+  text-align:center;
+  h1,h2,h3,h4,h5,h6,p,a{
+    color:white;
+  }
+  h1{
+    font-weight:bolder;
+    font-size:3em;
+  }
+  a{
+    @include transition-duration(.2s);
+    &:hover{
+      text-decoration:none;
+      color:rgba(255,255,255,.4);
+    }
+  }
+  .social-menu{
+    display:inline-flex;
+  }
+}
+
+//bootstrap_overrides
+
+.well{
+  box-shadow:none;
 }
 
 
@@ -419,11 +457,62 @@ header{
 //md
 @media (max-width: 992px) {
 
+  h1{
+    font-size:1.8em;
+    line-height:1.3em;
+  }
+
+  section{
+    &.home-hero{
+      background:url(/images/bg1.png)no-repeat center top fixed;
+      position:relative;
+      .hero-info-container{
+        padding-top:$baseline;
+      }
+      .main-phones{
+        position:relative;
+        top: 190px;
+        margin-top: -180px;
+      }
+    }
+  }
+
 
 }
 
 //sm
 @media (max-width: 768px) {
+
+  header{
+    &.main-header{
+      a.logo{
+        margin:0 auto;
+      }
+    }
+  }
+
+
+  section{
+    padding:$baseline 0;
+    &.home-hero{
+      text-align:center;
+      background:url(/images/bg1.png)no-repeat center top;
+      position:relative;
+      padding-bottom:0;
+      .hero-info-container{
+        padding-top:$baseline;
+      }
+      .main-phones{
+        position:relative;
+        top: 0px;
+        margin-top: $baseline*2;
+      }
+      a.app-download-button{
+        margin:0 auto;
+      }
+    }
+  }
+
 
 
 }
