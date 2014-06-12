@@ -7,6 +7,7 @@
         %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
         / Use title if it's in the page YAML frontmatter
         %title= data.page.title || "TripDay Landing Page"
+        %link{href: "images/favicon.ico", rel: "shortcut icon"}
         = javascript_include_tag  "jquery","../public/bootstrap/js/bootstrap.min","scripts"
         = stylesheet_link_tag "style"
         

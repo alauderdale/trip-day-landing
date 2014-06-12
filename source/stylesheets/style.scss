@@ -373,7 +373,7 @@ ul.inline{
 //buttons
 
 a.app-download-button{
-	background:url(/images/app_store_button.png)no-repeat;
+	background:url(../images/app_store_button.png)no-repeat;
 	width:221px;
 	height:74px;
 	display:block;
@@ -388,11 +388,11 @@ section{
   	@extend .invert-text;
   }
   &.home-hero{
-  	background:url(/images/bg1.png)no-repeat center top fixed;
+  	background:url(../images/bg1.png)no-repeat center top fixed;
   	position:relative;
     .hero-info-container{
       padding-top:$baseline*3;
-      background-image:url(/images/arrow.png);
+      background-image:url(../images/arrow.png);
       background-repeat:no-repeat;
       background-position-x: 290px;
       background-position-y: 148px;
@@ -404,11 +404,11 @@ section{
   	}
   }
   &.flow-feature-section{
-    background:url(/images/bg2.png)no-repeat center top fixed;
+    background:url(../images/bg2.png)no-repeat center top fixed;
     .flow-feature-container{
       margin-bottom:-190px;
       display:inline-block;
-      background-image:url(/images/arrow_right.png),url(/images/arrow_right.png);
+      background-image:url(../images/arrow_right.png),url(/images/arrow_right.png);
       background-repeat:no-repeat,no-repeat;
       background-position-x: 367px,749px;
       background-position-y: 160px,165px;
@@ -438,7 +438,7 @@ header{
 		display:block;
 		width:135px;
 		height:36px;
-		background:url(/images/logo.png)no-repeat;
+		background:url(../images/logo.png)no-repeat;
 	}
 }
 
@@ -504,7 +504,7 @@ footer{
 
   section{
     &.home-hero{
-      background:url(/images/bg1.png)no-repeat center top fixed;
+      background:url(../images/bg1.png)no-repeat center top fixed;
       position:relative;
       .hero-info-container{
         padding-top:$baseline;
@@ -547,7 +547,7 @@ footer{
     padding:$baseline 0;
     &.home-hero{
       text-align:center;
-      background:url(/images/bg1.png)no-repeat center top;
+      background:url(../images/bg1.png)no-repeat center top;
       position:relative;
       padding-bottom:0;
       .hero-info-container{
