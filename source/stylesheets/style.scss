@@ -86,6 +86,7 @@ p{
   color:#666;
   &.lead{
   	font-weight:500;
+    font-size:1.3em!important;
   }
   &.display{
     font-weight:300;
@@ -101,6 +102,16 @@ h3 { font-size: 1.8em; line-height:$baseline*1.4;}
 h4 { font-size: 1.4em; line-height:$baseline;}
 h5 { font-size: 1em; line-height:$baseline;}
 h6 { font-size: 0.9em; line-height:$baseline;}
+
+.invert-text{
+  h1,h2,h3,h4,h5,h6,p{
+      color:white;
+    }
+}
+
+p.extra-line-height{
+  line-height:2em;
+}
 
 .social-font-name{
 	font-family:$social-font-name;
@@ -374,21 +385,43 @@ a.app-download-button{
 section{
   padding:$baseline*3 0;
   &.invert-section{
-  	h1,h2,h3,h4,h5,h6,p{
-  		color:white;
-  	}
+  	@extend .invert-text;
   }
   &.home-hero{
   	background:url(/images/bg1.png)no-repeat center top fixed;
   	position:relative;
     .hero-info-container{
       padding-top:$baseline*3;
+      background-image:url(/images/arrow.png);
+      background-repeat:no-repeat;
+      background-position-x: 290px;
+      background-position-y: 148px;
     }
   	.main-phones{
   		position:relative;
       top: 223px;
       margin-top: -180px;
   	}
+  }
+  &.flow-feature-section{
+    background:url(/images/bg2.png)no-repeat center top fixed;
+    .flow-feature-container{
+      margin-bottom:-190px;
+      display:inline-block;
+      background-image:url(/images/arrow_right.png),url(/images/arrow_right.png);
+      background-repeat:no-repeat,no-repeat;
+      background-position-x: 367px,749px;
+      background-position-y: 160px,165px;
+    }
+  }
+  &.testimonials-section{
+    padding-top:190px;
+    .testimonials{
+      padding-top:$baseline*2;
+    }
+  }
+  &.download-section{
+    padding-bottom:$baseline*4;
   }
 }
 
@@ -451,7 +484,14 @@ footer{
 
 //lg
 @media (max-width: 1200px) {
-
+  section{
+    &.flow-feature-section{
+      .flow-feature-container{
+        background-position-x: 294px,620px;
+        background-position-y: 160px,165px;
+      }
+    }
+  }
 }
 
 //md
@@ -468,6 +508,9 @@ footer{
       position:relative;
       .hero-info-container{
         padding-top:$baseline;
+        background-position-x: 250px;
+        background-position-y: 130px;
+        background-size: 26%;
       }
       .main-phones{
         position:relative;
@@ -482,6 +525,14 @@ footer{
 
 //sm
 @media (max-width: 768px) {
+
+  p{
+    &.display{
+      font-size:1.5em;
+      line-height:1.5em;
+      text-align:center;
+    }
+  }
 
   header{
     &.main-header{
@@ -501,13 +552,53 @@ footer{
       padding-bottom:0;
       .hero-info-container{
         padding-top:$baseline;
+        background:none;
       }
       .main-phones{
         position:relative;
         top: 0px;
-        margin-top: $baseline*2;
+        padding-top: $baseline*2;
+        margin:0 auto;
       }
       a.app-download-button{
+        margin:0 auto;
+      }
+    }
+    &.logos-section{
+      padding-bottom:0!important;
+    }
+    &.flow-feature-section{
+      padding:$baseline*2 0!important;
+      .flow-feature-container{
+        background:none;
+      }
+      p{
+        color:white;
+        margin-bottom:$baseline*3;
+        &.extra-line-height{
+          margin-bottom:0;
+        }
+      }
+      .flow-feature-container{
+        margin-bottom:0;
+      }
+    }
+    &.testimonials-section{
+      padding-top:$baseline!important;
+      padding-bottom:0;
+      hr{
+        display:none;
+      }
+      .testimonials{
+        padding-top:$baseline;
+        .testimonial{
+          margin-bottom:$baseline*2;
+        }
+      }
+    }
+    &.download-section{
+      text-align:center;
+      a{
         margin:0 auto;
       }
     }

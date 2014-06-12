@@ -10,7 +10,7 @@
 					%a.app-download-button{:href=>"#"}
 			.col-sm-6
 				=image_tag'images/phones_main.png',:class=>"img-responsive main-phones"
-%section.no-padding-top.double-padding-bottom
+%section.no-padding-top.double-padding-bottom.logos-section
 	.container
 		.row
 			.col-sm-6	
@@ -25,11 +25,11 @@
 			.col-lg-12
 				.padding-top
 				%hr
-%section.no-padding-top
+%section.no-padding-top.about-section
 	.container
 		.row
 			.col-sm-7
-				%p.display
+				%p.display.margin-top.double-margin-bottom
 					Trip Day is an iPhone app that connects you to special offers for great Restaurants, Hotels, and Activites in the Bahamas.  
 			.col-sm-5
 				.well
@@ -47,43 +47,55 @@
 						%strong
 							Personalized For You. 
 						You get  special offers based on your individual needs and wants. 
-%section.no-padding-top.flow-feature
+%section.flow-feature-section.no-padding-bottom.text-center
+	.container
+		.row.double-margin-bottom
+			.col-sm-1
+			.col-sm-10
+				.invert-text
+					%h2
+						Fun Travel Planning
+					%p.extra-line-height
+						Do you enjoy looking at great photos of beautiful places when planning a vacation?  If yes Trip Day was created for you. With this app you get access to 1000’s of  carribean photos that make it simple and fun to discover local experiences that you’ll love. 
+			.col-sm-1
+		.row
+			.flow-feature-container
+				.col-sm-4
+					.text-center
+						=image_tag('phone_1.png')
+						%p
+							Rate pictures of local food and restaurants.
+				.col-sm-4
+					.text-center
+						=image_tag('phone_2.png')
+						%p.text-center
+							After every few photos you’ll get special offers from restaurants you’ll love.
+				.col-sm-4
+					.text-center
+						=image_tag('phone_3.png')
+						%p.text-center
+							Save your favorite offers for use while offline. 
+%section.testimonials-section
 	.container
 		.row
-			.col-sm-4
-				.text-center
-					=image_tag('phone_1.png')
-					%p
-						Rate pictures of local food and restaurants.
-					=image_tag('arrow_right.png')
-			.col-sm-4
-				.text-center
-					=image_tag('phone_2.png')
-					%p.text-center
-						After every few photos you’ll get special offers from restaurants you’ll love.
-					=image_tag('arrow_right.png')
-			.col-sm-4
-				.text-center
-					=image_tag('phone_3.png')
-					%p.text-center
-						Save your favorite offers for use while offline. 
-%section
-	.container
+			.col-lg-12
+				%hr
 		.row
-			-2.times do
-				.col-sm-6
-					.media
-						.pull-left.margin-right
-							=image_tag 'avatar1.png', :class=>"img-responsive img-circle"
-						.media-body.half-margin-top
-							.media-heading
-								%p
-									%em
-										“Trip Day helped my wife I discover Cafe Matisse a hidden gem in Nassau. It was a cute restaurant with good service and great food.” 
-									%br
-								%a{:href=>"#"}
-									\- Will Brandt 
-%section
+			.testimonials
+				-2.times do
+					.col-sm-6
+						.media.testimonial
+							.pull-left.margin-right
+								=image_tag 'avatar1.png', :class=>"img-responsive img-circle"
+							.media-body.half-margin-top
+								.media-heading
+									%p
+										%em
+											“Trip Day helped my wife I discover Cafe Matisse a hidden gem in Nassau. It was a cute restaurant with good service and great food.” 
+										%br
+									%a{:href=>"#"}
+										\- Will Brandt 
+%section.download-section
 	.container
 		.row
 			.col-sm-1
@@ -95,7 +107,7 @@
 					%strong
 						Download TripDay on itunes 
 			.col-sm-5
-				%a.app-download-button{:href=>"#"}
+				%a.app-download-button.double-margin-bottom{:href=>"#"}
 
 
 
