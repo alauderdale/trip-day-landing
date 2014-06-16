@@ -2197,7 +2197,7 @@ section {
       background-image: url(../images/arrow.png);
       background-repeat: no-repeat;
       background-position-x: 219px;
-      background-position-y: 263px; }
+      background-position-y: 253px; }
       /* line 421, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
       section.home-hero .hero-info-container p {
         font-size: 2.2em !important;
@@ -2206,7 +2206,7 @@ section {
     /* line 427, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
     section.home-hero .main-phones {
       position: relative;
-      top: 223px;
+      top: 263px;
       margin-top: -180px; }
   /* line 433, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
   section.flow-feature-section {
