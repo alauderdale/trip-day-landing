@@ -5,7 +5,6 @@
 /* FONT PATH
  * -------------------------- */
 @import url(../public/bootstrap/css/bootstrap.css);
-@import url(http://fonts.googleapis.com/css?family=Patrick+Hand|Architects+Daughter);
 @font-face {
   font-family: 'FontAwesome';
   src: url("../font/fontawesome-webfont.eot?v=4.0.3");
@@ -1746,7 +1745,7 @@
   font-weight: normal;
   font-style: normal; }
 
-/* line 44, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 43, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 body {
   font: 100% "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12pt;
@@ -1758,164 +1757,159 @@ body {
   line-height: 24px;
   background: white; }
 
-/* line 58, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 57, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit; }
 
-/* line 61, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 60, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   margin-bottom: 12px;
   color: #42464a; }
 
-/* line 67, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 66, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 h1 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bolder; }
 
-/* line 71, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 70, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 h2 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-/* line 74, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 73, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 h3 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-/* line 77, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 76, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 h4 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-/* line 80, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 79, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 h5 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-/* line 83, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 82, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-/* line 86, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 85, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 p {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #666; }
-  /* line 89, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+  /* line 88, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
   p.lead {
     font-weight: 500;
     font-size: 1.3em !important; }
-  /* line 93, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+  /* line 92, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
   p.display {
     font-weight: 300;
     font-size: 2em;
     line-height: 48px; }
 
-/* line 100, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 99, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 p {
   font-size: 1.2em;
   line-height: 24px; }
 
-/* line 101, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 100, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 h1 {
   font-size: 2.5em;
   line-height: 48px; }
 
-/* line 102, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 101, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 h2 {
   font-size: 1.6em;
   line-height: 36px; }
 
-/* line 103, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 102, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 h3 {
   font-size: 1.8em;
   line-height: 33.6px; }
 
-/* line 104, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 103, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 h4 {
   font-size: 1.4em;
   line-height: 24px; }
 
-/* line 105, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 104, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 h5 {
   font-size: 1em;
   line-height: 24px; }
 
-/* line 106, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 105, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 h6 {
   font-size: 0.9em;
   line-height: 24px; }
 
-/* line 109, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 108, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .invert-text h1, section.invert-section h1, .invert-text h2, section.invert-section h2, .invert-text h3, section.invert-section h3, .invert-text h4, section.invert-section h4, .invert-text h5, section.invert-section h5, .invert-text h6, section.invert-section h6, .invert-text p, section.invert-section p {
   color: white; }
 
-/* line 114, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 113, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 p.extra-line-height {
   line-height: 2em; }
 
-/* line 118, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 117, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .social-font-name {
   font-family: "socialicoregular"; }
 
 /* line 121, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
-.hand-font-name {
-  font-family: "Architects Daughter", cursive;
-  font-weight: bolder; }
-
-/* line 125, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .light-font-name {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300; }
 
-/* line 130, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 126, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .truncate {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden; }
 
-/* line 137, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 133, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .text-uppercase {
   text-transform: uppercase; }
 
-/* line 141, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 137, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .primary-text-color {
   color: #40b8e2; }
 
-/* line 148, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 144, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .relative {
   position: relative; }
 
-/* line 152, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 148, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .hidden {
   display: none; }
 
-/* line 156, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 152, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .base-line-height {
   line-height: 24px; }
 
-/* line 161, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 157, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .full-width {
   width: 100% !important; }
 
-/* line 165, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 161, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .display-block {
   display: block; }
 
-/* line 169, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 165, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .inline-block {
   display: inline-block; }
 
-/* line 173, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 169, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .inline {
   display: inline; }
 
-/* line 177, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 173, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 ul.inline {
   list-style: none;
   margin-left: 0; }
-  /* line 180, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+  /* line 176, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
   ul.inline li {
     display: inline-block;
     padding: 0 5px; }
 
-/* line 186, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 182, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .bg-cover {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1923,251 +1917,251 @@ ul.inline {
   -o-background-size: cover;
   background-size: cover; }
 
-/* line 191, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 187, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .border-top {
   border-top: 1px solid #f2f2f2; }
 
-/* line 194, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 190, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .border-right {
   border-right: 1px solid #f2f2f2; }
 
-/* line 197, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 193, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .border-bottom {
   border-bottom: 1px solid #f2f2f2; }
 
-/* line 200, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 196, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .border-left {
   border-left: 1px solid #f2f2f2; }
 
-/* line 209, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 205, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .margin-auto {
   margin: 0 auto; }
 
-/* line 212, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 208, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .margin {
   margin: 24px !important; }
 
-/* line 215, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 211, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .margin-top {
   margin-top: 24px !important; }
 
-/* line 218, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 214, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .margin-right {
   margin-right: 24px !important; }
 
-/* line 221, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 217, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .margin-bottom {
   margin-bottom: 24px !important; }
 
-/* line 224, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 220, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .margin-left {
   margin-left: 24px !important; }
 
-/* line 227, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 223, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .double-margin-top {
   margin-top: 48px !important; }
 
-/* line 230, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 226, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .double-margin-right {
   margin-right: 48px !important; }
 
-/* line 233, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 229, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .double-margin-bottom {
   margin-bottom: 48px !important; }
 
-/* line 236, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 232, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .double-margin-left {
   margin-left: 48px !important; }
 
-/* line 239, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 235, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .triple-margin-top {
   margin-top: 72px !important; }
 
-/* line 242, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 238, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .triple-margin-right {
   margin-right: 72px !important; }
 
-/* line 245, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 241, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .triple-margin-bottom {
   margin-bottom: 72px !important; }
 
-/* line 248, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 244, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .triple-margin-left {
   margin-left: 72px !important; }
 
-/* line 251, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 247, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .half-margin-top {
   margin-top: 12px !important; }
 
-/* line 254, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 250, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .half-margin-right {
   margin-right: 12px !important; }
 
-/* line 257, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 253, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .half-margin-bottom {
   margin-bottom: 12px !important; }
 
-/* line 260, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 256, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .half-margin-left {
   margin-left: 12px !important; }
 
-/* line 263, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 259, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .quarter-margin-top {
   margin-top: 6px !important; }
 
-/* line 266, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 262, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .quarter-margin-right {
   margin-right: 6px !important; }
 
-/* line 269, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 265, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .quarter-margin-bottom {
   margin-bottom: 6px !important; }
 
-/* line 272, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 268, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .quarter-margin-left {
   margin-left: 6px !important; }
 
-/* line 275, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 271, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .no-margin {
   margin: 0px !important; }
 
-/* line 278, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 274, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .no-margin-top {
   margin-top: 0px !important; }
 
-/* line 281, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 277, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .no-margin-right {
   margin-right: 0px !important; }
 
-/* line 284, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 280, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .no-margin-bottom {
   margin-bottom: 0px !important; }
 
-/* line 287, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 283, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .no-margin-left {
   margin-left: 0px !important; }
 
-/* line 290, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 286, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .large-margin-top {
   margin-top: 72px !important; }
 
-/* line 295, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 291, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .padded {
   padding: 24px !important; }
 
-/* line 298, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 294, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .padding-top {
   padding-top: 24px !important; }
 
-/* line 301, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 297, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .padding-right {
   padding-right: 24px !important; }
 
-/* line 304, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 300, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .padding-bottom {
   padding-bottom: 24px !important; }
 
-/* line 307, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 303, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .padding-left {
   padding-left: 24px !important; }
 
-/* line 310, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 306, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .double-padded {
   padding: 48px !important; }
 
-/* line 313, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 309, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .double-padding-top {
   padding-top: 48px !important; }
 
-/* line 316, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 312, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .double-padding-right {
   padding-right: 48px !important; }
 
-/* line 319, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 315, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .double-padding-bottom {
   padding-bottom: 48px !important; }
 
-/* line 322, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 318, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .double-padding-left {
   padding-left: 48px !important; }
 
-/* line 325, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 321, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .triple-padding-top {
   padding-top: 72px !important; }
 
-/* line 328, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 324, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .triple-padding-right {
   padding-right: 72px !important; }
 
-/* line 331, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 327, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .triple-padding-bottom {
   padding-bottom: 72px !important; }
 
-/* line 334, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 330, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .triple-padding-left {
   padding-left: 72px !important; }
 
-/* line 337, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 333, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .no-padding {
   padding: 0px !important; }
 
-/* line 340, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 336, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .no-padding-top {
   padding-top: 0px !important; }
 
-/* line 343, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 339, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .no-padding-right {
   padding-right: 0px !important; }
 
-/* line 346, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 342, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .no-padding-bottom {
   padding-bottom: 0px !important; }
 
-/* line 349, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 345, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .no-padding-left {
   padding-left: 0px !important; }
 
-/* line 352, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 348, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .half-padding {
   padding: 12px !important; }
 
-/* line 355, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 351, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .half-padding-top {
   padding-top: 12px !important; }
 
-/* line 358, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 354, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .half-padding-right {
   padding-right: 12px !important; }
 
-/* line 361, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 357, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .half-padding-bottom {
   padding-bottom: 12px !important; }
 
-/* line 364, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 360, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .half-padding-left {
   padding-left: 12px !important; }
 
-/* line 367, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 363, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .quarter-padding {
   padding: 6px !important; }
 
-/* line 370, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 366, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .quarter-padding-top {
   padding-top: 6px !important; }
 
-/* line 373, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 369, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .quarter-padding-right {
   padding-right: 6px !important; }
 
-/* line 376, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 372, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .quarter-padding-bottom {
   padding-bottom: 6px !important; }
 
-/* line 379, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 375, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .quarter-padding-left {
   padding-left: 6px !important; }
 
-/* line 385, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 381, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 a.app-download-button {
   background: url(../images/app_store_button.png) no-repeat;
   width: 200px;
@@ -2175,7 +2169,7 @@ a.app-download-button {
   background-size: 100%;
   display: block; }
 
-/* line 394, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 390, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .btn.btn-primary {
   background: #40b8e2;
   border-color: #40b8e2;
@@ -2185,39 +2179,39 @@ a.app-download-button {
   -ms-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
   transition-duration: 0.2s; }
-  /* line 399, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+  /* line 395, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
   .btn.btn-primary:hover {
     background-color: #66c6e7; }
 
-/* line 410, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 406, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 section {
   padding: 72px 0; }
-  /* line 415, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+  /* line 411, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
   section.home-hero {
     background-image: url(../images/bg1.png);
     background-repeat: no-repeat !important;
     position: relative; }
-    /* line 419, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+    /* line 415, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
     section.home-hero .hero-info-container {
       padding-top: 72px;
       background-image: url(../images/arrow.png);
       background-repeat: no-repeat;
       background-position-x: 255px;
       background-position-y: 253px; }
-      /* line 425, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+      /* line 421, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
       section.home-hero .hero-info-container p {
         font-size: 2.2em !important;
-        font-weight: 900;
+        font-weight: 300;
         line-height: 40px; }
-    /* line 431, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+    /* line 427, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
     section.home-hero .main-phones {
       position: relative;
       top: 223px;
       margin-top: -180px; }
-  /* line 437, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+  /* line 433, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
   section.flow-feature-section {
     background-image: url(../images/bg2.png); }
-    /* line 439, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+    /* line 435, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
     section.flow-feature-section .flow-feature-container {
       margin-bottom: -190px;
       display: inline-block;
@@ -2225,180 +2219,180 @@ section {
       background-repeat: no-repeat,no-repeat;
       background-position-x: 367px,749px;
       background-position-y: 160px,165px; }
-  /* line 448, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+  /* line 444, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
   section.testimonials-section {
     padding-top: 190px;
     background: url("../images/depth_bg.png") repeat-x; }
-    /* line 451, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+    /* line 447, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
     section.testimonials-section .testimonials {
       padding-top: 48px; }
-      /* line 454, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+      /* line 450, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
       section.testimonials-section .testimonials .testimonial img {
         width: 100px; }
-  /* line 460, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+  /* line 456, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
   section.download-section {
     padding-bottom: 96px; }
 
-/* line 470, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 466, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 header.main-header {
   background: #40b8e2; }
-  /* line 472, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+  /* line 468, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
   header.main-header section {
     padding: 6px 0; }
-/* line 476, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 472, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 header a.logo {
   display: block;
   width: 135px;
   height: 36px;
   background: url(../images/logo.png) no-repeat; }
 
-/* line 486, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 482, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .logos {
   opacity: .5;
   margin-top: -40.8px; }
 
-/* line 492, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 488, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 footer {
   background: #40b8e2;
   text-align: center; }
-  /* line 495, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+  /* line 491, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
   footer h1, footer h2, footer h3, footer h4, footer h5, footer h6, footer p, footer a {
     color: white; }
-  /* line 498, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+  /* line 494, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
   footer h1 {
     font-weight: bolder;
     font-size: 3em; }
-  /* line 502, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+  /* line 498, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
   footer a {
     -webkit-transition-duration: 0.2s;
     -moz-transition-duration: 0.2s;
     -ms-transition-duration: 0.2s;
     -o-transition-duration: 0.2s;
     transition-duration: 0.2s; }
-    /* line 504, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+    /* line 500, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
     footer a:hover {
       text-decoration: none;
       color: rgba(255, 255, 255, 0.4); }
-  /* line 509, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+  /* line 505, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
   footer .social-menu {
     display: inline-flex; }
 
-/* line 516, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 512, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .well {
   box-shadow: none; }
 
 @media (max-width: 1200px) {
-  /* line 528, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+  /* line 524, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
   section.flow-feature-section .flow-feature-container {
     background-position-x: 294px,620px;
     background-position-y: 160px,165px; } }
 @media (max-width: 992px) {
-  /* line 539, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+  /* line 535, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
   h1 {
     font-size: 1.8em;
     line-height: 1.3em; }
 
-  /* line 545, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+  /* line 541, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
   section.home-hero {
     background: url(../images/bg1.png) no-repeat center top;
     position: relative; }
-    /* line 548, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+    /* line 544, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
     section.home-hero .hero-info-container {
       padding-top: 24px;
       background-position-x: 229px;
       background-position-y: 186px;
       background-size: 26%; }
-      /* line 553, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+      /* line 549, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
       section.home-hero .hero-info-container p {
         font-size: 1.7em !important;
         margin-bottom: 24px !important; }
-    /* line 558, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+    /* line 554, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
     section.home-hero .main-phones {
       position: relative;
       top: 190px;
       margin-top: -180px; } }
 @media (max-width: 768px) {
-  /* line 573, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+  /* line 569, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
   p.display {
     font-size: 1.5em;
     line-height: 1.5em;
     text-align: center; }
 
-  /* line 582, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+  /* line 578, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
   header.main-header a.logo {
     margin: 0 auto; }
 
-  /* line 588, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+  /* line 584, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
   section {
     padding: 24px 0; }
-    /* line 590, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+    /* line 586, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
     section.home-hero {
       text-align: center;
       background: url(../images/bg1.png) center top;
       position: relative;
       padding-bottom: 0; }
-      /* line 595, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+      /* line 591, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
       section.home-hero .hero-info-container {
         padding-top: 24px;
         background: none; }
-      /* line 599, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+      /* line 595, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
       section.home-hero .main-phones {
         position: relative;
         top: 0px;
         padding-top: 48px;
         margin: 0 auto; }
-      /* line 605, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+      /* line 601, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
       section.home-hero a.app-download-button {
         margin: 0 auto; }
-    /* line 609, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+    /* line 605, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
     section.logos-section {
       padding-bottom: 0 !important; }
-    /* line 612, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+    /* line 608, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
     section.flow-feature-section {
       background: #40b8e2;
       background-image: none;
       padding: 48px 0 !important; }
-      /* line 616, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+      /* line 612, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
       section.flow-feature-section .flow-feature-container {
         background: none; }
-      /* line 619, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+      /* line 615, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
       section.flow-feature-section p {
         color: white;
         margin-bottom: 72px; }
-        /* line 622, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+        /* line 618, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
         section.flow-feature-section p.extra-line-height {
           margin-bottom: 0; }
-      /* line 626, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+      /* line 622, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
       section.flow-feature-section .flow-feature-container {
         margin-bottom: 0; }
-    /* line 630, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+    /* line 626, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
     section.testimonials-section {
       padding-top: 24px !important;
       padding-bottom: 0; }
-      /* line 634, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+      /* line 630, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
       section.testimonials-section .row {
         margin-bottom: 0 !important; }
-      /* line 637, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+      /* line 633, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
       section.testimonials-section .testimonials {
         padding-top: 24px; }
-        /* line 639, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+        /* line 635, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
         section.testimonials-section .testimonials .testimonial {
           margin-bottom: 0; }
-    /* line 644, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+    /* line 640, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
     section.download-section {
       text-align: center; }
-      /* line 646, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+      /* line 642, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
       section.download-section a {
         margin: 0 auto; }
 
-  /* line 652, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+  /* line 648, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
   .get-it-now-button {
     width: 100%; }
 
-  /* line 656, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+  /* line 652, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
   .text-center-xs {
     text-align: center; } }
-/* line 672, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 668, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -2407,18 +2401,18 @@ footer {
   clear: both;
   height: 0; }
 
-/* line 680, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 676, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 * html .clearfix {
   zoom: 1; }
 
 /* IE6 */
-/* line 681, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+/* line 677, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
 *:first-child + html .clearfix {
   zoom: 1; }
 
 /* IE7 */
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-  /* line 686, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
+  /* line 682, /Users/alauderdale/Dropbox/clients/trip_day/landing_and_display_ads/landing_pages/landing_template_middleman/source/stylesheets/style.scss */
   select:focus, textarea:focus, input:focus {
     font-size: 16px;
     background: #eee; } }
