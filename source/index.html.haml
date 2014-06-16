@@ -1,15 +1,17 @@
-%section.home-hero.invert-section
+%section.home-hero.invert-section.bg-cover
 	.container
 		.row
 			.col-sm-6	
 				.hero-info-container
-					%h1
+					%h1.margin-bottom
 						Discover Nassau’s Best Family Restaurants
-					%p.lead.margin-bottom
-						Download TripDay on Itunes
+					%p.lead.triple-margin-bottom.hand-font-name
+						Download TripDay 
+						%br
+						on Itunes
 					%a.app-download-button{:href=>"#"}
 			.col-sm-6
-				=image_tag'images/phones_main.png',:class=>"img-responsive main-phones"
+				=image_tag'/images/phones_main.png',:class=>"img-responsive main-phones"
 %section.no-padding-top.double-padding-bottom.logos-section
 	.container
 		.row
@@ -19,7 +21,7 @@
 						%strong
 							Trusted by:
 				.logos
-					=image_tag'images/logos.png',:class=>"img-responsive"
+					=image_tag'/images/logos.png',:class=>"img-responsive"
 			.col-sm-6	
 		.row
 			.col-lg-12
@@ -29,8 +31,13 @@
 	.container
 		.row
 			.col-sm-7
-				%p.display.margin-top.double-margin-bottom
-					Trip Day is an iPhone app that connects you to special offers for great Restaurants, Hotels, and Activites in the Bahamas.  
+				.margin-top
+					%h2.text-center-xs
+						What is Tripday?
+					%p.display.margin-top.double-margin-bottom
+						Trip Day is an iPhone app that connects you to special offers for great Restaurants, Hotels, and Activites in the Bahamas.  
+					%a.btn.btn-primary.btn-lg.get-it-now-button.double-margin-bottom{:href=>"#"}
+						Get it now
 			.col-sm-5
 				.well
 					%h2
@@ -47,7 +54,7 @@
 						%strong
 							Personalized For You. 
 						You get  special offers based on your individual needs and wants. 
-%section.flow-feature-section.no-padding-bottom.text-center
+%section.flow-feature-section.no-padding-bottom.text-center.bg-cover
 	.container
 		.row.double-margin-bottom
 			.col-sm-1
@@ -77,10 +84,10 @@
 							Save your favorite offers for use while offline. 
 %section.testimonials-section
 	.container
-		.row
+		.row.hidden-xs
 			.col-lg-12
 				%hr
-		.row
+		.row.double-margin-bottom
 			.testimonials
 				-2.times do
 					.col-sm-6
@@ -96,19 +103,22 @@
 									%a{:href=>"#"}
 										%strong
 											\- Will Brandt 
-%section.download-section
+		.row
+			.col-lg-12
+				%hr
+%section.download-section.no-padding-top.padding-bottom
 	.container
 		.row
 			.col-sm-1
-			.col-sm-6
-				%p.lead
+			.col-sm-10.text-center
+				%h2
 					%strong
 						Each Month Trip Day helps 10,000 people discover restaurants in the Bahamas.
-				%p
+				%p.double-margin-bottom
 					%strong
 						Download TripDay on itunes 
-			.col-sm-5
-				%a.app-download-button.double-margin-bottom{:href=>"#"}
+				%a.app-download-button.double-margin-bottom.margin-auto{:href=>"#"}
+			.col-sm-1
 
 
 
