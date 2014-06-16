@@ -122,6 +122,10 @@ p.extra-line-height{
   font-family:$hand-font-name;
   font-weight:bolder;
 }
+.light-font-name{
+  font-family:$paragraph-font-name;
+  font-weight:300;
+}
 
 .truncate{
   text-overflow: ellipsis;
@@ -132,6 +136,10 @@ p.extra-line-height{
 
 .text-uppercase{
   text-transform:uppercase;
+}
+
+.primary-text-color{
+  color:$primary-color;
 }
 
 
@@ -412,12 +420,12 @@ section{
       padding-top:$baseline*3;
       background-image:url(../images/arrow.png);
       background-repeat:no-repeat;
-      background-position-x: 219px;
-      background-position-y: 221px;
+      background-position-x: 255px;
+      background-position-y: 253px;
       p{
         font-size:2.2em!important;
         font-weight:900;
-        line-height:28px;
+        line-height:40px;
       }
     }
   	.main-phones{
@@ -442,6 +450,11 @@ section{
     background:url('../images/depth_bg.png')repeat-x;
     .testimonials{
       padding-top:$baseline*2;
+      .testimonial{
+        img{
+          width:100px;;
+        }
+      }
     }
   }
   &.download-section{
@@ -534,11 +547,11 @@ footer{
       position:relative;
       .hero-info-container{
         padding-top:$baseline;
-        background-position-x: 232px;
-        background-position-y: 154px;
+        background-position-x: 229px;
+        background-position-y: 186px;
         background-size: 26%;
         p{
-          font-size:2em!important;
+          font-size:1.7em!important;
           margin-bottom:$baseline!important;
         }
       }
